@@ -1,0 +1,3 @@
+answers has been taken from https://stackoverflow.com/questions/52913263/how-to-hide-lacking-phpmyadmin-warnings
+
+open a file /usr/share/phpmyadmin/libraries/sql.lib.php in editor and search for (count($analyzed_sql_results['select_expr'] == 1) replace this text from this (count($analyzed_sql_results['select_expr']) == 1
